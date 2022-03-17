@@ -1,0 +1,215 @@
+html {
+  background-color: #161619;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  color: #F4F4F6;
+}
+
+h1 {
+  color: #F4F4F6;
+  font-family: serif;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+a {
+  color: #F4F4F6;
+}
+
+textarea {
+  resize: none;
+  background-color: #161619;
+  color: #F4F4F6;
+  width: 500px;
+  letter-spacing: 1px;
+  border: 2px solid #F4F4F6;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #5177B8;
+}
+
+input[type=email] {
+  resize: none;
+  background-color: #161619;
+  color: #F4F4F6;
+  max-width: 500px;
+  width: 500px;
+  height: 30px;
+  letter-spacing: 1px;
+  border: 2px solid #F4F4F6;
+  margin-bottom: 10px;
+}
+
+input[type=email]:focus {
+  outline: none;
+  border-color: #5177B8;
+}
+
+.submit-button {
+  width: 500px;
+}
+
+p {
+  color: #F4F4F6;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.sns-logo {
+  width: 60px;
+  height: 60px;
+}
+
+button {
+  border-radius: 100vh;
+  background-color: #161619;
+  border: none;
+  color: #F4F4F6;
+  border: 2px solid #F4F4F6;
+  border-radius: 0.45rem;
+}
+
+.season {
+  text-align: center;
+}
+
+.wrapper {
+  background-color: #161619;
+  width: 900px;
+  max-width: 700px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.content-title {
+  font-size: 2rem;
+  font-family: serif;
+}
+
+.content-title::after {
+  display: inline-block;
+  content: "";
+  background-image: url("/static/onpu.png");
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  vertical-align: bottom;
+}
+
+.text {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.season-title {
+  padding-left: 10px;
+  text-align: left;
+  font-size: 1.7rem;
+  margin-top: 10px;
+  font-family: serif;
+}
+
+.catchphrase-text {
+  padding-left: 100px;
+}
+.catchphrase-text p {
+  padding-top: 5px;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+  position: fixed;
+  width: 700px;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -350px;
+  background-color: #161619;
+}
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+header li {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+header img {
+  padding: 45px;
+}
+header h1 {
+  font-size: 3rem;
+}
+header h1::after {
+  content: "";
+  display: inline-block;
+  background-image: url("/static/onpu.png");
+  background-size: contain;
+  vertical-align: bottom;
+  width: 80px;
+  height: 80px;
+}
+
+main {
+  margin-top: 230px;
+}
+main #activity-log img {
+  height: 250px;
+  width: 250px;
+}
+main #activity-log ul {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main #activity-log li {
+  padding: 20px;
+}
+main #activity-log .not-show {
+  display: none;
+}
+main #inquiry {
+  margin-bottom: 300px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
