@@ -203,6 +203,7 @@ main #activity-log li {
 }
 main #activity-log .not-show {
   display: none;
+  padding: 0;
 }
 main #inquiry {
   margin-bottom: 300px;
