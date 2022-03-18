@@ -178,7 +178,7 @@ header h1 {
 header h1::after {
   content: "";
   display: inline-block;
-  background-image: url("/static/onpu.png");
+  background-image: url("./onpu.png");
   background-size: contain;
   vertical-align: bottom;
   width: 80px;
@@ -203,6 +203,7 @@ main #activity-log li {
 }
 main #activity-log .not-show {
   display: none;
+  padding: 0;
 }
 main #inquiry {
   margin-bottom: 300px;
