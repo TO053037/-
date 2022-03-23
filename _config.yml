@@ -1,3 +1,8 @@
 theme: jekyll-theme-cayman
 plugins:
  - jekyll-sitemap
+
+sitemap:
+    path: sitemap.xml
+    template: ./sitemap_template.xml
+    rel: false
